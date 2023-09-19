@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Muhammet İzzet Ekinci">
+    <meta name="description" content="web tasarım ve pazarlama">
+    <meta name="keywords" content="web,tasarım,dizayn,programlama,yazılım,geliştirme">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="icon" type="image/png" href="img/chef-favicon.ico" sizes="32x32">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <link rel="stylesheet" href="css/about.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliciano Restaurant</title>
+</head>
+<body id="page-body">
+<!-- navbar start -->
+<navbar class="navbar navbar-expand-lg fixed-top bg-transparent " id="mainNavbar">
+    <div class="container">
+      <a href="index.html" class="navbar-brand text-white" title="feliciona webiste link"><span
+          class="fw-bold"></span>Feliciano</a>
+      <button type="button" class="navbar-toggler bg-light" data-bs-toggle="offcanvas" data-bs-target="#myNavbar"
+        aria-controls="myNavbar" aria-label="menüyü açma kapama butonu" aria-expanded="false">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas  offcanvas-end" tabindex="-1" id="myNavbar" aria-labelledby="myLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title text-white">Menü</h5>
+          <button type="button" class="btn-close text-reset bg-white" data-bs-dismiss="offcanvas" aria-label="kapat"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav ms-auto  py-lg-2">
+            <li class="nav-item"><a href="index.html" class="nav-link btn-close-canvas ">Home</a></li>
+            <li class="nav-item"><a href="about.html" class="nav-link btn-close-canvas active">About</a></li>
+            <li class="nav-item"><a href="menu.html" class="nav-link btn-close-canvas">Menu</a></li>
+            <li class="nav-item"><a href="blog.html" class="nav-link btn-close-canvas">Blog</a></li>
+            <li class="nav-item"><a href="contact.html" class="nav-link btn-close-canvas">Contact</a></li>
+            <li class="nav-item"><a href="reservation.html" class="nav-link btn-close-canvas">Reservation</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </navbar>
+<!-- navbar end -->
+<!-- header start -->
+<header class="mySection mb-5">
+  <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div style="background-image: url(img/image2.jpg); height: 450px;" class="d-block w-100 slider-item  img-fluid" alt="food image">
+            <div class="container">
+                <h1>ABOUT</h1>
+                <a href="index.html"><span class="text-white">HOME <i class='fas fa-angle-right' style='margin-left: 5px;'></i></span></a>
+                <span class="text-white">ABOUT <i class='fas fa-angle-right'style='margin-left: 5px;'></i></span>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- header end -->
+<!-- about start -->
+<section id="aboutSection ">
+  <div class="container pt-5 about">
+    <div class="row about-images">
+       <div class="col-md-6  img-content">
+        <img src="img/about.jpg" class="img-fluid first-img" alt="">
+        <img src="img/about-1.jpg"class="img-fluid " alt="">
+       </div>
+       <div class="col-md-6  ps-5 right-content">
+        <h1>About</h1>
+        <h2>Feliciano <br>Restaurant</h2>
+        <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+        <div class="aboutDays">Mon - Fri <strong>8 AM - 11 PM</strong></div>
+        <div class="PhoneNumber"><a href="#">+ 1-234-123-4567</a></div>
+       </div>
+    </div>
+  </div>
+  <div class="container pb-5">
+    <div class="counter-up">
+      <div class="content">
+        <div class="row g-3">
+          <div class="col-md-6 col-lg-3">
+            <div class="box">
+              <div class="icon"><i class="fas fa-history"></i></div>
+              <span class="counter" data-target="18">18</span>
+              <div class="text">YEARS OF EXPERIENCE</div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="box">
+              <div class="icon"><i class="fas fa-gift"></i></div>
+              <span class="counter" data-target="100">100</span>
+              <div class="text">MENUS/DISHES</div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="box">
+              <div class="icon"><i class="fas fa-users"></i></div>
+              <span class="counter" data-target="50">50</span>
+              <div class="text">STAFF</div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="box">
+              <div class="icon text-center"><i class="fas fa-award"></i></div>
+              <div class="counter" data-target="12000">12,000</div>
+              <div class="text">HAPPY CUSTOMERS</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- about end -->
+<!-- services start -->
+<section class="bg-light pt-5 pb-5" id="services">
+  <div class="container">
+    <div class="row">
+      <div class="col text-center">
+        <h1>Services</h1>
+        <h2>Catering Services</h2>
+      </div>
+    </div>
+    <div class="row content text-center">
+      <div class="col-md-4 col-12">
+        <i class="fa-solid fa-cake-candles"></i>
+        <h3>Birthday Party</h3>
+        <p class="p-2 mt-3">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+      </div>
+      <div class="col-md-4 col-12">
+        <i class="fa-solid fa-handshake"></i>
+        <h3>Business Meetings</h3>
+        <p class="p-2 mt-3">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+      </div>
+      <div class="col-md-4 col-12">
+        <i class="fa-solid fa-champagne-glasses"></i>
+        <h3>Wedding Party</h3>
+        <p class="p-2 mt-3">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- services end -->
+<!-- chefs start -->
+<section class=" p-5  chefs">
+  <div class="container">
+    <div class="row">
+      <div class="col text-center">
+        <h1>Chefs</h1>
+        <h2>Our Master Chef</h2>
+      </div>
+    </div>
+  </div>
+  <div class="container pb-5">
+    <div class="row d-flex justify-content-around">
+      <div class="card g-0 col-3 " style="width: 18rem;">
+        <img src="img/chef-1.jpg" class="card-img-top img-fluid" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">John Smooth</h5>
+          <p class="card-text">Restaurant Owner.</p>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-google"></i></i></a>
+        </div>
+      </div>
+      <div class="card g-0 col-3 " style="width: 18rem;">
+        <img src="img/chef-2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Rebeca Welson</h5>
+          <p class="card-text">Head Chef</p>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-google"></i></i></a>
+        </div>
+      </div>
+      <div class="card g-0 col-3 " style="width: 18rem;">
+        <img src="img/chef-3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Kharl Branyt</h5>
+          <p class="card-text">Chef</p>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-google"></i></i></a>
+        </div>
+      </div>
+      <div class="card g-0 col-3 " style="width: 18rem;">
+        <img src="img/chef-4.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Luke Simon</h5>
+          <p class="card-text">Chef</p>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-google"></i></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- chefs end -->
+<!-- Reservation start -->
+<section class="reservation">
+  <div class="container-fluid  p-0">
+    <div class="par par-2">
+    <div class="container">
+      <div class="wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col text-center">
+              <h1>Feliciano</h1>
+              <h2>Make Reservation</h2>
+            </div>
+          </div>
+        </div>
+        <form action="#" >
+          <div class="dbl-field">
+            <div class="field">
+              <input type="text" name="name" placeholder="Enter your name">
+              <i class='fas fa-user'></i>
+            </div>
+            <div class="field">
+              <input type="text" name="email" placeholder="Enter your email">
+              <i class='fas fa-envelope'></i>
+            </div>
+          </div>
+          <div class="dbl-field">
+            <div class="field">
+              <input type="text" name="phone" placeholder="Enter your phone">
+              <i class='fas fa-phone-alt'></i>
+            </div>
+            <div class="field date">
+              <input type="date" name="date" placeholder="Enter date">
+              <i class='fas fa-globe'></i>
+            </div>
+          </div>
+          <div class="dbl-field ">
+            <div class="field time">
+              <input type="time" name="time" placeholder="Enter time">
+              <i class="fa-regular fa-clock"></i>
+            </div>
+            <div class="field">
+              <input type="number" name="person" placeholder="Enter person">
+              <i class="fa-solid fa-users"></i>
+            </div>
+          </div>
+          <div class="button-area">
+            <button type="submit">Make a Reservation</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    </div>
+  </div>
+</section>
+<!-- Reservation end -->
+<!-- Happy Costumers start -->
+<section class="p-5 happyCost bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col text-center">
+        <h1>Testimony</h1>
+        <h2>Happy Customer</h2>
+      </div>
+    </div>
+  </div>
+  <div class="container ">
+    <div class="row d-flex justify-content-center">
+      <div class="col-md-12">
+        <div class="text-center mb-4 pb-2">
+          <i class="fas fa-quote-left fa-3x text-black"></i>
+        </div>
+
+        <div class="card">
+          <div class="card-body px-4 py-5">
+            <!-- Carousel wrapper -->
+            <div id="carouselDarkVariant" class="carousel slide carousel-dark" data-mdb-ride="carousel">
+              <!-- Inner -->
+              <div class="carousel-inner mb-5 mt-5">
+                <!-- Single item -->
+                <div class="carousel-item active">
+                  <div class="row d-flex justify-content-center">
+                    <div class="col-lg-10 col-xl-8">
+                      <div class="row">
+                        <div class="col-lg-4 d-flex justify-content-center">
+                          <img src="img/person_3.jpg"
+                            class="rounded-circle shadow-1 mb-4 mb-lg-0" alt="woman avatar" width="150"
+                            height="150" />
+                        </div>
+                        <div
+                          class="col-9 col-md-9 col-lg-7 col-xl-8 text-center text-lg-start mx-auto mx-lg-0">
+                          <h4 class="mb-4">John Smith - Web Developer</h4>
+                          <p class="mb-0 pb-3">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
+                            aliquam amet animi blanditiis consequatur debitis dicta
+                            distinctio, enim error eum iste libero modi nam natus
+                            perferendis possimus quasi sint sit tempora voluptatem. Est,
+                            exercitationem id ipsa ipsum laboriosam perferendis.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Single item -->
+                <div class="carousel-item">
+                  <div class="row d-flex justify-content-center">
+                    <div class="col-lg-10 col-xl-8">
+                      <div class="row">
+                        <div class="col-lg-4 d-flex justify-content-center">
+                          <img src="img/person_4.jpg"
+                            class="rounded-circle shadow-1 mb-4 mb-lg-0" alt="woman avatar" width="150"
+                            height="150" />
+                        </div>
+                        <div
+                          class="col-9 col-md-9 col-lg-7 col-xl-8 text-center text-lg-start mx-auto mx-lg-0">
+                          <h4 class="mb-4">John Smith - Graphic Designer</h4>
+                          <p class="mb-0 pb-3">
+                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                            accusantium doloremque laudantium, totam rem aperiam, eaque
+                            ipsa quae ab illo inventore veritatis et quasi architecto
+                            beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem
+                            quia voluptas sit aspernatur.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Single item -->
+                <div class="carousel-item">
+                  <div class="row d-flex justify-content-center">
+                    <div class="col-lg-10 col-xl-8">
+                      <div class="row">
+                        <div class="col-lg-4 d-flex justify-content-center">
+                          <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp"
+                            class="rounded-circle shadow-1 mb-4 mb-lg-0" alt="woman avatar" width="150"
+                            height="150" />
+                        </div>
+                        <div
+                          class="col-9 col-md-9 col-lg-7 col-xl-8 text-center text-lg-start mx-auto mx-lg-0">
+                          <h4 class="mb-4">Lisa Cudrow - Marketing Specialist</h4>
+                          <p class="mb-0 pb-3">
+                            At vero eos et accusamus et iusto odio dignissimos qui
+                            blanditiis praesentium voluptatum deleniti atque corrupti quos
+                            dolores et quas molestias excepturi sint occaecati cupiditate
+                            non provident, similique sunt in culpa qui officia mollitia
+                            animi id laborum et dolorum fuga.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Inner -->
+
+              <!-- Controls -->
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselDarkVariant" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselDarkVariant" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <!-- Carousel wrapper -->
+          </div>
+        </div>
+
+        <div class="text-center mt-4 pt-2">
+          <i class="fas fa-quote-right fa-3x text-black"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Happy Costumers end -->
+<!-- footer start -->
+<footer class="pt-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-lg-3 ">
+        <h4>Feliciano</h4>
+        <p class=" pt-3 fs-6">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+        <div class="pt-4">
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3 pb-5 ">
+        <h4 class="mb-4">Open Hours</h4>
+        <div class="row">
+          <div class="col-6 days">
+            <span>Monday</span>
+            <span>Tuesday</span>
+            <span>Wednesday</span>
+            <span>Thursday</span>
+            <span>Friday</span>
+            <span>Saturday</span>
+            <span>Sunday</span>
+          </div>
+           <div class="col-6 times">
+            <span>9:00 - 24:00</span>
+            <span>9:00 - 24:00</span>
+            <span>9:00 - 24:00</span>
+            <span>9:00 - 24:00</span>
+            <span>9:00 - 02:00</span>
+            <span>9:00 - 02:00</span>
+            <span>9:00 - 02:00</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3 content-3">
+        <h4 class="ms-4">Instagram</h4>
+        <div class="row image d-flex justify-content-center g-0">
+          <div class="col-4 imgContent">
+            <img src="img/insta-1.jpg" alt="">
+          </div>
+          <div class="col-4 imgContent">
+            <img src="img/insta-2.jpg" alt="">
+          </div>
+          <div class="col-4 imgContent">
+            <img src="img/insta-3.jpg" alt="">
+          </div>
+          <div class="col-4 imgContent">
+            <img src="img/insta-4.jpg" alt="">
+          </div>
+          <div class="col-4 imgContent">
+            <img src="img/insta-5.jpg" alt="">
+          </div>
+          <div class="col-4 imgContent">
+            <img src="img/insta-6.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <h4>Newsletter</h4>
+        <p class="pt-3 fs-6">Far far away, behind the word mountains, far from the countries</p>
+        <form>
+          <div class="mb-3">
+            <input type="email" class="form-control text-center p-3" id="exampleInputEmail1" placeholder="Enter email address" aria-describedby="emailHelp">
+          </div>
+          <div class="text-center">
+            <button type="submit" class="btn btn-primary w-100 Subscribe p-3">Subscribe</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+</footer>
+<!-- footer end -->
+
+    <script src="js/script.js"></script>
+</body>
+</html>
